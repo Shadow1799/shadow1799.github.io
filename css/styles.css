@@ -112,12 +112,11 @@ color: #0b9334;
 /*----------main--------------*/
 
 .main {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding-left: 630px;
-  padding-bottom: 300px;
-  padding-top: 100px;
+  text-align: center;
+  margin-left: 100px;
+  margin-bottom: 100px;
+
 }
 
 /*----------body---------*/
@@ -128,4 +127,12 @@ color: #0b9334;
 
 .text {
   color: #ffffff;
+}
+
+/*----------footer--------*/
+
+.footer {
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 100px;
 }
