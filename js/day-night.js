@@ -1,7 +1,7 @@
 
 
 document.addEventListener('DOMContentLoaded', function() {
-  var toggle = document.getElementById('checkbox');
+  var toggle = document.getElementById('day/night');
 
   toggle.addEventListener('change', function() {
     if (this.checked) {
