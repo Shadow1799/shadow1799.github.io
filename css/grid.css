@@ -1,3 +1,9 @@
+.wrapper {
+  display:grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 1fr 4fr 4fr 1fr;
+}
+
 
 .navbox{
 grid-column:1;
@@ -14,9 +20,13 @@ align-self: top;
 
 .mainbox {
 grid-column:2/3;
-grid-row:2/3;
+grid-row: 2;
 }
 
+.mainbox2 {
+grid-column:2/3;
+grid-row: 3;
+}
 .footerbox{
 grid-column:2/3;
 grid-row:4;
