@@ -3,7 +3,7 @@
   display:grid;
   grid-template-columns: 1fr 5fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  background-color: #161818;
+  background-color: #ffffff;
 }
 
 .banner {
@@ -11,12 +11,12 @@ color: #0b9334;
 }
 
 .text {
-  color: #ffffff;
+  color: #000000;
 }
 
 #day-label {
-    opacity: 0
+    opacity: 100
 }
 #night-label{
-    opacity: 100
+    opacity: 0
 }
