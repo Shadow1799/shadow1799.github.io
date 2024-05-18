@@ -7,6 +7,7 @@
   <link id="css2" href="css/grid.css" rel="stylesheet" type="text/css"/>
   <link id="css3" href="css/buttons.css" rel="stylesheet" type="text/css"/>
   <script type="text/javascript" src="js/burgerbutton.js"></script>
+  <script type="text/javascript" src="js/day-night.js"></script>
   <script src="https://kit.fontawesome.com/2a97d64603.js" crossorigin="anonymous"></script>
 </head>
 <body class="wrapper">
@@ -51,11 +52,14 @@
 
 
 </div class="buttonbox">
-<h3>Day</h3>
   <label class="switch">
-    <input type="checkbox">
+    <input type="checkbox" id="day/night">
     <span class="slider round">
-    </span>
+      <div class="theme-labels">
+      <span id="night-label">Night</span>
+      <span id="day-label">Day</span>
+    </div>
+  </span>
   </label>
 </div>
 
